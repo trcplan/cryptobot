@@ -1,8 +1,8 @@
 name: Crypto Bot
 on:
   schedule:
-    - cron: "0 */4 * * *"  # هر ۴ ساعت یکبار
-  workflow_dispatch:  # امکان اجرای دستی
+    - cron: "0 */4 * * *"  # Every 4 hours
+  workflow_dispatch:  # Manual trigger
 
 jobs:
   run-bot:
